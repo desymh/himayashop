@@ -540,7 +540,7 @@
           </div>
           <div class="col-lg-3 col-md-12">
             <div class="btn-wrap">
-              <a href="#" class="btn btn-black btn-medium text-uppercase hvr-sweep-to-right">order Now</a>
+              <a href="/co" class="btn btn-black btn-medium text-uppercase hvr-sweep-to-right">order Now</a>
             </div>
           </div>
         </div>
