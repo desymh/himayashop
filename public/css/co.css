@@ -1,0 +1,97 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            background-image: url(../images/uang.jpg);
+            
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        body::before {
+            content: ''; 
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(255, 255, 255, 0.7); /* Warna putih dengan transparansi */
+            z-index: 1; /* Agar lapisan ini berada di atas gambar */
+        }
+
+        .checkout-container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            padding: 20px;
+            z-index: 2;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus {
+            border-color: #0066cc;
+            outline: none;
+        }
+
+        .payment-method {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .payment-method label {
+            font-size: 14px;
+        }
+
+        .total {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            color: #333;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 12px;
+            background-color: orange;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: orangered;
+        }

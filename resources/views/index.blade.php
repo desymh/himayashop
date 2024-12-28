@@ -427,14 +427,14 @@
                 
               </li>
               <li class="nav-item">
-                <a class="nav-link me-5 " href="#" >Page</a>
+                <a class="nav-link me-5 " href="#" >product</a>
                 
               </li>
               <li class="nav-item">
-                <a class="nav-link me-5" href="index.html">Shop</a>
+                <a class="nav-link me-5" href="#">Shop</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link me-5" href="#">Sale</a>
+                <a class="nav-link me-5" href="#">About</a>
               </li>
             </ul>
           </div>
