@@ -362,7 +362,7 @@
   <!-- Login -->
 
   <header id="header" class="site-header text-black">
-    <div class="header-top border-bottom py-2">
+    <!-- <div class="header-top border-bottom py-2">
       <div class="container-lg">
         <div class="row justify-content-evenly">
           <div class="col">
@@ -401,7 +401,7 @@
 
         </div>
       </div>
-    </div>
+    </div> -->
     <nav id="header-nav" class="navbar navbar-expand-lg">
       <div class="container-lg">
         <a class="navbar-brand" href="index.html">
@@ -426,35 +426,9 @@
               <li class="nav-item dropdown">
                 
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link me-5 active dropdown-toggle border-0" href="#" data-bs-toggle="dropdown"
-                  aria-expanded="false">Page</a>
-                <ul class="dropdown-menu fw-bold">
-                  <li>
-                    <a href="index.html" class="dropdown-item">About Us </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="index.html">Shop </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="index.html">Blog </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="index.html">Single Product </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="index.html">Single Post </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="index.html">Styles </a>
-                  </li>
-                  <li>
-                    <a href="#" data-bs-toggle="modal" data-bs-target="#modallong" class="dropdown-item">cart</a>
-                  </li>
-                  <li>
-                    <a href="#" data-bs-toggle="modal" data-bs-target="#modallogin" class="dropdown-item">Login</a>
-                  </li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link me-5 " href="#" >Page</a>
+                
               </li>
               <li class="nav-item">
                 <a class="nav-link me-5" href="index.html">Shop</a>
@@ -528,7 +502,7 @@
             <div class="row g-4">
               <div class="col-lg-12 mb-4">
                 <div class="card d-flex flex-row align-items-end border-0 jarallax-keep-img">
-                  <img src="images/g5.jpg" alt="shoes" class="img-fluid jarallax-img">
+                  <img src="images/g5.jpeg" alt="shoes" class="img-fluid jarallax-img">
                   <div class="cart-concern p-3 m-3 p-lg-5 m-lg-5">
                     <h2 class="card-title style-2 display-4 light">Men Shoes</h2>
                     <a href="index.html"
@@ -538,7 +512,7 @@
               </div>
               <div class="col-lg-12">
                 <div class="card d-flex flex-row align-items-end border-0 jarallax-keep-img">
-                  <img src="images/g6.jpg" alt="shoes" class="img-fluid jarallax-img">
+                  <img src="images/g6.jpeg" alt="shoes" class="img-fluid jarallax-img">
                   <div class="cart-concern p-3 m-3 p-lg-5 m-lg-5">
                     <h2 class="card-title style-2 display-4 light">Women Shoes</h2>
                     <a href="index.html"
