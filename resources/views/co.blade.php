@@ -46,7 +46,7 @@
             </div>
             
             <!-- Tombol Checkout -->
-            <button class="btn"> <a href="/sukses" > Bayar Sekarang </a>  </button>
+            <button class="btn"> <a style="color:inherit; text-decoration:none;" href="/sukses" > Bayar Sekarang </a>  </button>
         </form>
     </div>
 </body>

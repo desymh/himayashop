@@ -100,7 +100,7 @@
             <p><strong>Total Pembayaran:</strong> Rp 40.000</p>
         </div>
 
-        <button class="btn" href="/">Kembali ke Beranda</button>
+        <button class="btn" > <a style="color:inherit; text-decoration:none;"    href="/"> Kembali ke Beranda </a></button>
         <!-- <button class="btn-secondary">Lanjutkan Belanja</button> -->
     </div>
 </body>

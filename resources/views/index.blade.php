@@ -220,12 +220,12 @@
                 <div class="mini-cart-item d-flex border-bottom pb-3">
                   <div class="col-lg-2 col-md-3 col-sm-2 me-4">
                     <a href="#" title="product-image">
-                      <img src="images/single-product-thumb1.jpg" class="img-fluid" alt="single-product-item">
+                      <img src="images/g1.jpeg" class="img-fluid" alt="single-product-item">
                     </a>
                   </div>
                   <div class="col-lg-9 col-md-8 col-sm-8">
                     <div class="product-header d-flex justify-content-between align-items-center mb-3">
-                      <h4 class="product-title fs-6 me-5">Sport Shoes For Men</h4>
+                      <h4 class="product-title fs-6 me-5">Type1</h4>
                       <a href="" class="remove" aria-label="Remove this item" data-product_id="11913"
                         data-cart_item_key="abc" data-product_sku="">
                         <svg class="close">
@@ -251,7 +251,7 @@
                         </button>
                       </div>
                       <div class="price-code">
-                        <span class="product-price fs-6">$99</span>
+                        <span class="product-price fs-6">Rp.50.000</span>
                       </div>
                     </div>
                     <!-- quantity-price -->
@@ -261,59 +261,24 @@
               <div class="mini-cart cart-list p-0 mt-3">
                 <div class="mini-cart-item d-flex border-bottom pb-3">
                   <div class="col-lg-2 col-md-3 col-sm-2 me-4">
-                    <a href="#" title="product-image">
-                      <img src="images/single-product-thumb2.jpg" class="img-fluid" alt="single-product-item">
-                    </a>
+                    
                   </div>
-                  <div class="col-lg-9 col-md-8 col-sm-8">
-                    <div class="product-header d-flex justify-content-between align-items-center mb-3">
-                      <h4 class="product-title fs-6 me-5">Brand Shoes For Men</h4>
-                      <a href="" class="remove" aria-label="Remove this item" data-product_id="11913"
-                        data-cart_item_key="abc" data-product_sku="">
-                        <svg class="close">
-                          <use xlink:href="#close"></use>
-                        </svg>
-                      </a>
-                    </div>
-                    <div class="quantity-price d-flex justify-content-between align-items-center">
-                      <div class="input-group product-qty">
-                        <button type="button"
-                          class="quantity-left-minus btn btn-light rounded-0 rounded-start btn-number"
-                          data-type="minus">
-                          <svg width="16" height="16">
-                            <use xlink:href="#minus"></use>
-                          </svg>
-                        </button>
-                        <input type="text" name="quantity" class="form-control input-number quantity" value="1">
-                        <button type="button" class="quantity-right-plus btn btn-light rounded-0 rounded-end btn-number"
-                          data-type="plus">
-                          <svg width="16" height="16">
-                            <use xlink:href="#plus"></use>
-                          </svg>
-                        </button>
-                      </div>
-                      <div class="price-code">
-                        <span class="product-price fs-6">$99</span>
-                      </div>
-                    </div>
-                    <!-- quantity-price -->
-                  </div>
+                 
                 </div>
-              </div>
-              <!-- cart-list -->
+</div >
+            
               <div class="mini-cart-total d-flex justify-content-between py-4">
                 <span class="fs-6">Subtotal:</span>
                 <span class="special-price-code">
                   <span class="price-amount amount fs-6" style="opacity: 1;">
                     <bdi>
-                      <span class="price-currency-symbol">$</span>198.00 </bdi>
+                      <span class="price-currency-symbol">Rp.</span> </bdi>
                   </span>
                 </span>
               </div>
               <div class="modal-footer my-4 justify-content-center">
-                <button type="button" class="btn btn-red hvr-sweep-to-right dark-sweep">View Cart</button>
-                <button type="button"
-                  class="btn btn-outline-gray hvr-sweep-to-right dark-sweep">Checkout</button>
+                <button type="button" class="btn btn-red hvr-sweep-to-right dark-sweep">Masukkan Ke Keranjang</button>
+                
               </div>
             </div>
           </div>
@@ -431,7 +396,7 @@
                 
               </li>
               <li class="nav-item">
-                <a class="nav-link me-5" href="#">Shop</a>
+                <a class="nav-link me-5" href="#">Troly</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link me-5" href="#">About</a>
@@ -454,7 +419,7 @@
             <div class="card d-flex flex-row align-items-end border-0 large jarallax-keep-img">
               <img style="height:500px;" src="images/g1.jpeg" alt="shoes" class="img-fluid jarallax-img">
               <div class="cart-concern p-3 m-3 p-lg-5 m-lg-5">
-                <h2 class="card-title display-3 light">Stylish shoes for Women</h2>
+                <h2 class="card-title display-3 light">Gift</h2>
                 <a href="index.html"
                   class="text-uppercase light mt-3 d-inline-block text-hover fw-bold light-border">Shop Now</a>
               </div>
@@ -527,6 +492,187 @@
       <div class="swiper-pagination"></div>
     </div>
   </section>
+
+<!-- produk -->
+<section id="latest-products" class="product-store py-2 my-2 py-md-5 my-md-5 pt-0">
+    <div class="container-md">
+      <div class="display-header d-flex align-items-center justify-content-between">
+        <h2 class="section-title text-uppercase">List Products</h2>
+        
+      </div>
+      <div class="product-content padding-small">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5">
+          <div class="col mb-4 mb-3">
+            <div class="product-card position-relative">
+              <div class="card-img">
+                <img style="height:200px;"  src="images/g1.jpeg" alt="product-item" class="product-image img-fluid">
+                <div class="cart-concern position-absolute d-flex justify-content-center">
+                  <div class="cart-button d-flex gap-2 justify-content-center align-items-center">
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#modallong">
+                      <svg class="shopping-carriage">
+                        <use xlink:href="#shopping-carriage"></use>
+                      </svg>
+                    </button>
+                    <!-- <button type="button" class="btn btn-light" data-bs-target="#modaltoggle" data-bs-toggle="modal">
+                      <svg class="quick-view">
+                        <use xlink:href="#quick-view"></use>
+                      </svg>
+                    </button> -->
+                  </div>
+                </div>
+                
+              </div>
+              <div class="card-detail d-flex justify-content-center align-items-center mt-3">
+                <h3 class="card-title fs-6 fw-normal m-0">
+                  <a href="index.html">Type1</a>
+                </h3>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 mb-3">
+            <div class="product-card position-relative">
+              <div class="card-img">
+                <img style="height:200px;" src="images/ga2.jpeg" alt="product-item" class="product-image img-fluid">
+                <div class="cart-concern position-absolute d-flex justify-content-center">
+                  <div class="cart-button d-flex gap-2 justify-content-center align-items-center">
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#modallong">
+                      <svg class="shopping-carriage">
+                        <use xlink:href="#shopping-carriage"></use>
+                      </svg>
+                    </button>
+                    <!-- <button type="button" class="btn btn-light" data-bs-target="#modaltoggle" data-bs-toggle="modal">
+                      <svg class="quick-view">
+                        <use xlink:href="#quick-view"></use>
+                      </svg>
+                    </button> -->
+                  </div>
+                </div>
+               
+              </div>
+              <div class="card-detail d-flex justify-content-center align-items-center mt-3">
+                <h3 class="card-title fs-6 fw-normal m-0">
+                  <a href="index.html">Type2</a>
+                </h3>
+    
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 mb-3">
+            <div class="product-card position-relative">
+              <div class="card-img">
+                <img style="height:200px;" src="images/g3.jpeg" alt="product-item" class="product-image img-fluid">
+                <div class="cart-concern position-absolute d-flex justify-content-center">
+                  <div class="cart-button d-flex gap-2 justify-content-center align-items-center">
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#modallong">
+                      <svg class="shopping-carriage">
+                        <use xlink:href="#shopping-carriage"></use>
+                      </svg>
+                    </button>
+                    <!-- <button type="button" class="btn btn-light" data-bs-target="#modaltoggle" data-bs-toggle="modal">
+                      <svg class="quick-view">
+                        <use xlink:href="#quick-view"></use>
+                      </svg>
+                    </button> -->
+                  </div>
+                </div>
+                
+              </div>
+              <div class="card-detail d-flex justify-content-center align-items-center mt-3">
+                <h3 class="card-title fs-6 fw-normal m-0">
+                  <a href="index.html">Type3</a>
+                </h3>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 mb-3">
+            <div class="product-card position-relative">
+              <div class="card-img">
+                <img style="height:200px;" src="images/g4.jpeg" alt="product-item" class="product-image img-fluid">
+                <div class="cart-concern position-absolute d-flex justify-content-center">
+                  <div class="cart-button d-flex gap-2 justify-content-center align-items-center">
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#modallong">
+                      <svg class="shopping-carriage">
+                        <use xlink:href="#shopping-carriage"></use>
+                      </svg>
+                    </button>
+                    <!-- <button type="button" class="btn btn-light" data-bs-target="#modaltoggle" data-bs-toggle="modal">
+                      <svg class="quick-view">
+                        <use xlink:href="#quick-view"></use>
+                      </svg>
+                    </button> -->
+                  </div>
+                </div>
+                
+              </div>
+              <div class="card-detail d-flex justify-content-center align-items-center mt-3">
+                <h3 class="card-title fs-6 fw-normal m-0">
+                  <a href="index.html">Type4</a>
+                </h3>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 mb-3">
+            <div class="product-card position-relative">
+              <div class="card-img">
+                <img style="height:200px;" src="images/g6.jpeg" alt="product-item" class="product-image img-fluid">
+                <div class="cart-concern position-absolute d-flex justify-content-center">
+                  <div class="cart-button d-flex gap-2 justify-content-center align-items-center">
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#modallong">
+                      <svg class="shopping-carriage">
+                        <use xlink:href="#shopping-carriage"></use>
+                      </svg>
+                    </button>
+                    
+                  </div>
+                </div>
+                
+              </div>
+              <div class="card-detail d-flex justify-content-center align-items-center mt-3">
+                <h3 class="card-title fs-6 fw-normal m-0">
+                  <a href="index.html">Type5</a>
+                </h3>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+
+
+ <!-- Modal Keranjang -->
+<div class="modal fade" id="modallong" tabindex="-1" aria-labelledby="modallongLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modallongLabel">Keranjang Belanja</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Produk berhasil ditambahkan ke dalam keranjang.</p>
+        <div class="d-flex justify-content-between">
+          <button class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+          <button class="btn btn-primary">Lanjutkan Belanja</button>
+          <button class="btn btn-success">Lihat Keranjang</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
   <section class="discount-coupon py-2 my-2 py-md-5 my-md-5">
     <div class="container">
       <div class="bg-gray coupon position-relative p-5">
@@ -547,343 +693,7 @@
       </div>
     </div>
   </section>
-  <!-- <section id="featured-products" class="product-store">
-    <div class="container-md">
-      <div class="display-header d-flex align-items-center justify-content-between">
-        <h2 class="section-title text-uppercase">Featured Products</h2>
-        <div class="btn-right">
-          <a href="index.html" class="d-inline-block text-uppercase text-hover fw-bold">View all</a>
-        </div>
-      </div>
-      <div class="product-content padding-small">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5">
-          <div class="col mb-4">
-            <div class="product-card position-relative">
-              <div class="card-img">
-                <img src="images/card-item1.jpg" alt="product-item" class="product-image img-fluid">
-                <div class="cart-concern position-absolute d-flex justify-content-center">
-                  <div class="cart-button d-flex gap-2 justify-content-center align-items-center">
-                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#modallong">
-                      <svg class="shopping-carriage">
-                        <use xlink:href="#shopping-carriage"></use>
-                      </svg>
-                    </button>
-                    <button type="button" class="btn btn-light" data-bs-target="#modaltoggle" data-bs-toggle="modal">
-                      <svg class="quick-view">
-                        <use xlink:href="#quick-view"></use>
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-            
-              </div>
-              <div class="card-detail d-flex justify-content-between align-items-center mt-3">
-                <h3 class="card-title fs-6 fw-normal m-0">
-                  <a href="index.html">Running shoes for men</a>
-                </h3>
-                <span class="card-price fw-bold">$99</span>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-4">
-            <div class="product-card position-relative">
-              <div class="card-img">
-                <img src="images/card-item2.jpg" alt="product-item" class="product-image img-fluid">
-                <div class="cart-concern position-absolute d-flex justify-content-center">
-                  <div class="cart-button d-flex gap-2 justify-content-center align-items-center">
-                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#modallong">
-                      <svg class="shopping-carriage">
-                        <use xlink:href="#shopping-carriage"></use>
-                      </svg>
-                    </button>
-                    <button type="button" class="btn btn-light" data-bs-target="#modaltoggle" data-bs-toggle="modal">
-                      <svg class="quick-view">
-                        <use xlink:href="#quick-view"></use>
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-                
-              </div>
-              <div class="card-detail d-flex justify-content-between align-items-center mt-3">
-                <h3 class="card-title fs-6 fw-normal m-0">
-                  <a href="index.html">Running shoes for men</a>
-                </h3>
-                <span class="card-price fw-bold">$99</span>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-4">
-            <div class="product-card position-relative">
-              <div class="card-img">
-                <img src="images/card-item3.jpg" alt="product-item" class="product-image img-fluid">
-                <div class="cart-concern position-absolute d-flex justify-content-center">
-                  <div class="cart-button d-flex gap-2 justify-content-center align-items-center">
-                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#modallong">
-                      <svg class="shopping-carriage">
-                        <use xlink:href="#shopping-carriage"></use>
-                      </svg>
-                    </button>
-                    <button type="button" class="btn btn-light" data-bs-target="#modaltoggle" data-bs-toggle="modal">
-                      <svg class="quick-view">
-                        <use xlink:href="#quick-view"></use>
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-              
-              </div>
-              <div class="card-detail d-flex justify-content-between align-items-center mt-3">
-                <h3 class="card-title fs-6 fw-normal m-0">
-                  <a href="index.html">Running shoes for men</a>
-                </h3>
-                <span class="card-price fw-bold">$99</span>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-4">
-            <div class="product-card position-relative">
-              <div class="card-img">
-                <img src="images/card-item4.jpg" alt="product-item" class="product-image img-fluid">
-                <div class="cart-concern position-absolute d-flex justify-content-center">
-                  <div class="cart-button d-flex gap-2 justify-content-center align-items-center">
-                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#modallong">
-                      <svg class="shopping-carriage">
-                        <use xlink:href="#shopping-carriage"></use>
-                      </svg>
-                    </button>
-                    <button type="button" class="btn btn-light" data-bs-target="#modaltoggle" data-bs-toggle="modal">
-                      <svg class="quick-view">
-                        <use xlink:href="#quick-view"></use>
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-               
-              </div>
-              <div class="card-detail d-flex justify-content-between align-items-center mt-3">
-                <h3 class="card-title fs-6 fw-normal m-0">
-                  <a href="index.html">Running shoes for men</a>
-                </h3>
-                <span class="card-price fw-bold">$99</span>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-4">
-            <div class="product-card position-relative">
-              <div class="card-img">
-                <img src="images/card-item5.jpg" alt="product-item" class="product-image img-fluid">
-                <div class="cart-concern position-absolute d-flex justify-content-center">
-                  <div class="cart-button d-flex gap-2 justify-content-center align-items-center">
-                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#modallong">
-                      <svg class="shopping-carriage">
-                        <use xlink:href="#shopping-carriage"></use>
-                      </svg>
-                    </button>
-                    <button type="button" class="btn btn-light" data-bs-target="#modaltoggle" data-bs-toggle="modal">
-                      <svg class="quick-view">
-                        <use xlink:href="#quick-view"></use>
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-             
-              </div>
-              <div class="card-detail d-flex justify-content-between align-items-center mt-3">
-                <h3 class="card-title fs-6 fw-normal m-0">
-                  <a href="index.html">Running shoes for men</a>
-                </h3>
-                <span class="card-price fw-bold">$99</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-  <!-- <section id="collection-products" class="py-2 my-2 py-md-5 my-md-5">
-    <div class="container-md">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 mb-4">
-          <!-- <div class="collection-card card border-0 d-flex flex-row align-items-end jarallax-keep-img">
-            <img src="images/collection-item1.jpg" alt="product-item" class="border-rounded-10 img-fluid jarallax-img">
-            <div class="card-detail p-3 m-3 p-lg-5 m-lg-5">
-              <h3 class="card-title display-3">
-                <a href="#">Minimal Collection</a>
-              </h3>
-              <a href="index.html" class="text-uppercase mt-3 d-inline-block text-hover fw-bold">Shop Now</a>
-            </div>
-          </div> -->
-        </div>
-        <!-- <div class="col-lg-6 col-md-6">
-          <div class="collection-card card border-0 d-flex flex-row jarallax-keep-img">
-            <img src="images/collection-item2.jpg" alt="product-item" class="border-rounded-10 img-fluid jarallax-img">
-            <div class="card-detail p-3 m-3 p-lg-5 m-lg-5">
-              <h3 class="card-title display-3">
-                <a href="#">Sneakers Collection</a>
-              </h3>
-              <a href="index.html" class="text-uppercase mt-3 d-inline-block text-hover fw-bold">Shop Now</a>
-            </div>
-          </div>
-        </div> 
-      </div>
-    </div>
-  </section> -->
-  <!-- <section id="latest-products" class="product-store py-2 my-2 py-md-5 my-md-5 pt-0">
-    <div class="container-md">
-      <div class="display-header d-flex align-items-center justify-content-between">
-        <h2 class="section-title text-uppercase">Latest Products</h2>
-        <div class="btn-right">
-          <a href="index.html" class="d-inline-block text-uppercase text-hover fw-bold">View all</a>
-        </div>
-      </div>
-      <div class="product-content padding-small">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5">
-          <div class="col mb-4 mb-3">
-            <div class="product-card position-relative">
-              <div class="card-img">
-                <img src="images/card-item6.jpg" alt="product-item" class="product-image img-fluid">
-                <div class="cart-concern position-absolute d-flex justify-content-center">
-                  <div class="cart-button d-flex gap-2 justify-content-center align-items-center">
-                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#modallong">
-                      <svg class="shopping-carriage">
-                        <use xlink:href="#shopping-carriage"></use>
-                      </svg>
-                    </button>
-                    <button type="button" class="btn btn-light" data-bs-target="#modaltoggle" data-bs-toggle="modal">
-                      <svg class="quick-view">
-                        <use xlink:href="#quick-view"></use>
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-                
-              </div>
-              <div class="card-detail d-flex justify-content-between align-items-center mt-3">
-                <h3 class="card-title fs-6 fw-normal m-0">
-                  <a href="index.html">Running shoes for men</a>
-                </h3>
-                <span class="card-price fw-bold">$99</span>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-4 mb-3">
-            <div class="product-card position-relative">
-              <div class="card-img">
-                <img src="images/card-item7.jpg" alt="product-item" class="product-image img-fluid">
-                <div class="cart-concern position-absolute d-flex justify-content-center">
-                  <div class="cart-button d-flex gap-2 justify-content-center align-items-center">
-                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#modallong">
-                      <svg class="shopping-carriage">
-                        <use xlink:href="#shopping-carriage"></use>
-                      </svg>
-                    </button>
-                    <button type="button" class="btn btn-light" data-bs-target="#modaltoggle" data-bs-toggle="modal">
-                      <svg class="quick-view">
-                        <use xlink:href="#quick-view"></use>
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-               
-              </div>
-              <div class="card-detail d-flex justify-content-between align-items-center mt-3">
-                <h3 class="card-title fs-6 fw-normal m-0">
-                  <a href="index.html">Running shoes for men</a>
-                </h3>
-                <span class="card-price fw-bold">$99</span>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-4 mb-3">
-            <div class="product-card position-relative">
-              <div class="card-img">
-                <img src="images/card-item8.jpg" alt="product-item" class="product-image img-fluid">
-                <div class="cart-concern position-absolute d-flex justify-content-center">
-                  <div class="cart-button d-flex gap-2 justify-content-center align-items-center">
-                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#modallong">
-                      <svg class="shopping-carriage">
-                        <use xlink:href="#shopping-carriage"></use>
-                      </svg>
-                    </button>
-                    <button type="button" class="btn btn-light" data-bs-target="#modaltoggle" data-bs-toggle="modal">
-                      <svg class="quick-view">
-                        <use xlink:href="#quick-view"></use>
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-                
-              </div>
-              <div class="card-detail d-flex justify-content-between align-items-center mt-3">
-                <h3 class="card-title fs-6 fw-normal m-0">
-                  <a href="index.html">Running shoes for men</a>
-                </h3>
-                <span class="card-price fw-bold">$99</span>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-4 mb-3">
-            <div class="product-card position-relative">
-              <div class="card-img">
-                <img src="images/card-item9.jpg" alt="product-item" class="product-image img-fluid">
-                <div class="cart-concern position-absolute d-flex justify-content-center">
-                  <div class="cart-button d-flex gap-2 justify-content-center align-items-center">
-                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#modallong">
-                      <svg class="shopping-carriage">
-                        <use xlink:href="#shopping-carriage"></use>
-                      </svg>
-                    </button>
-                    <button type="button" class="btn btn-light" data-bs-target="#modaltoggle" data-bs-toggle="modal">
-                      <svg class="quick-view">
-                        <use xlink:href="#quick-view"></use>
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-                
-              </div>
-              <div class="card-detail d-flex justify-content-between align-items-center mt-3">
-                <h3 class="card-title fs-6 fw-normal m-0">
-                  <a href="index.html">Running shoes for men</a>
-                </h3>
-                <span class="card-price fw-bold">$99</span>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-4 mb-3">
-            <div class="product-card position-relative">
-              <div class="card-img">
-                <img src="images/card-item10.jpg" alt="product-item" class="product-image img-fluid">
-                <div class="cart-concern position-absolute d-flex justify-content-center">
-                  <div class="cart-button d-flex gap-2 justify-content-center align-items-center">
-                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#modallong">
-                      <svg class="shopping-carriage">
-                        <use xlink:href="#shopping-carriage"></use>
-                      </svg>
-                    </button>
-                    <button type="button" class="btn btn-light" data-bs-target="#modaltoggle" data-bs-toggle="modal">
-                      <svg class="quick-view">
-                        <use xlink:href="#quick-view"></use>
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-                
-              </div>
-              <div class="card-detail d-flex justify-content-between align-items-center mt-3">
-                <h3 class="card-title fs-6 fw-normal m-0">
-                  <a href="index.html">Running shoes for men</a>
-                </h3>
-                <span class="card-price fw-bold">$99</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
+ 
   <footer id="footer" class="py-5 border-top">
     <div class="container-lg">
       
